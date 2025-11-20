@@ -1,16 +1,29 @@
-# couldai_user_app
+# CouldAI User App
 
-A new Flutter project.
+A Flutter application designed to run on Windows 10 and 11.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is configured for cross-platform development with a focus on Windows Desktop.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK installed
+- Visual Studio 2019 or 2022 with "Desktop development with C++" workload installed (required for Windows development)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Running on Windows
+
+To run the application on your Windows machine:
+
+1. Enable Developer Mode in Windows Settings.
+2. Run the following command in your terminal:
+
+```bash
+flutter run -d windows
+```
+
+## Features
+
+- Desktop-optimized UI with Navigation Rail
+- Responsive Dashboard layout
+- Material 3 Design
